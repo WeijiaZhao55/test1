@@ -1,0 +1,123 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>饱了-菜品搜索</title>
+<link rel="stylesheet" type="text/css" href="style/foodsearch.css" />
+</head>
+<body>
+<div class="top">
+  <div class="logo">
+    <img alt="logoPic" src="image/logo.png" width="220" height="150">
+  </div>
+  <div class="search">
+    <form class="searchBar"> 
+      <input class="searchItem" type="text" placeholder="请输入菜谱/菜单/作者">
+      <input class="searchBu" type="submit" value="搜索" name="searchBtn">
+    </form> 
+  </div>
+  <div class="userPortal">
+    <div class="userProfile">
+      <img alt="userPic" src="image/user.png" width="60px" height="60px">
+    </div>
+    <div class="userOption">  
+      <p><b>登陆</b></p>
+      <p><b>注册</b></p>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="mainBody">
+  <div class="order">
+    <label>排序:</label>
+    <select class="dishOrder">
+      <option class="dishChoice"> 默认</option>
+      <option class="dishChoice">人气</option>
+      <option class="dishChoice">浏览数</option>   
+    </select>
+  </div>
+    <div class="dishSelect">
+      <label class=wenzif>筛选：<br/></label>
+      <label class=wenzi>时长<br/></label>
+      <select class="useTime">
+        <option class="dishTime"><5分钟</option>
+        <option class="dishTime">5分钟-10分钟</option>
+        <option class="dishTime">>10分钟</option>
+      </select>
+      
+      <label class=wenzi><br/>&nbsp;&nbsp;&nbsp;&nbsp;难度<br/></label>
+      <select class="hard">
+        <option class="dishhard">初级</option>
+        <option class="dishhard">中级</option>
+        <option class="dishhard">高级</option>
+      </select>
+      
+      <label class=wenzi><br/>&nbsp;&nbsp;&nbsp;&nbsp;适合人数<br/></label>
+      <select class="number">
+        <option class="dishNo">1-2人</option>
+        <option class="dishNo">3-5人</option>
+        <option class="dishNo">>5人</option>
+      </select>
+      
+      <label class=wenzi><br/>&nbsp;&nbsp;&nbsp;&nbsp;冷热<br/></label>
+      <select class="temp">
+        <option class="dishTemp">凉菜</option>
+        <option class="dishTemp">热菜</option>
+        <option class="dishTemp">可凉可热</option>
+      </select>
+      
+      <label class=wenzi><br/>&nbsp;&nbsp;&nbsp;&nbsp;菜系<br/></label>
+      <select class="kind">
+        <option class="dishKind">川菜</option>
+        <option class="dishKind">粤菜</option>
+        <option class="dishKind">东北菜</option>
+        <option class="dishKind">湘菜</option>
+        <option class="dishKind">鲁菜</option>
+        <option class="dishKind">浙菜</option>
+        <option class="dishKind">湖北菜</option>
+        <option class="dishKind">清真菜</option>
+      </select>
+      
+    </div>
+    <div class="wantedCenter">
+      <p class=xuanshangziti><br/><a href="http://localhost:8080/tableDesign/xuanshang.html" target="_blank" title="点击进入悬赏中心">悬赏中心</a></p>
+    </div>
+  </div>
+  
+  <div class="optionDishes">
+    <table>
+      <tbody>
+    <tr>
+      <th><img src="image/tudoudoujiang.jpg" alt="土豆豆浆" title="土豆豆浆" width="300" height="300"></th>
+      <th><img src="image/duojiaoyutou.jpg" alt="剁椒鱼头" title="剁椒鱼头" width="300" height="300"></th>
+      <th><img src="image/suanlafen.jpg" alt="酸辣粉" title="酸辣粉" width="300" height="300"></th>
+    </tr>
+    <tr>
+      <td>土豆豆浆</td>
+      <td>剁椒鱼头</td>
+      <td>酸辣粉</td>
+    </tr>
+    <tr>
+      <td>By:xxx</td>
+      <td>By:xxx</td>
+      <td>By:xxx</td>
+    </tr>
+    <tr>
+      <td><img src="image/tudoudoujiang.jpg" alt="土豆豆浆" title="土豆豆浆" width="300" height="300"></td>
+      <td><img src="image/duojiaoyutou.jpg" alt="剁椒鱼头" title="剁椒鱼头" width="300" height="300"></td>
+      <td><img src="image/suanlafen.jpg" alt="酸辣粉" title="酸辣粉" width="300" height="300"></td>
+    </tr>
+    <tr>
+      <td>土豆豆浆</td>
+      <td>剁椒鱼头</td>
+      <td>酸辣粉</td>
+    </tr>
+    <tr>
+      <td>By:xxx</td>
+      <td>By:xxx</td>
+      <td>By:xxx</td>
+    </tr>
+  </tbody>
+</table>  
+</div>
+<div class="clear"></div>
+</body>
